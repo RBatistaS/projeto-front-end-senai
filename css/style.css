@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+x@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lavishly+Yours&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lavishly+Yours&family=Sacramento&display=swap');
 * {
     margin: 0px;
     padding: 0px;
- }
+}
 
  body {
-    background-color: #13361c;
     width: 100%;
     height: 100%;
  }
@@ -49,8 +48,6 @@ nav {
     height: 50px;
     width: 800px; 
     margin: auto;
-    
-
 }
 
 .d-nav {
@@ -167,13 +164,14 @@ ul li a:hover {
 
   /* inicio home */
 
- .home {display: flex;
+ .home {
+    display: flex;
     flex-direction: column;
     margin: 7%;
 }
 
 .home h2 {
-    color: #13361c
+    color: #13361c;
 }
 
 .home p {
@@ -277,7 +275,7 @@ ul li a:hover {
 }
 
 .foot-container div p {
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .foot-container div img {
