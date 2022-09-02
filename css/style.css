@@ -1,4 +1,4 @@
-x@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lavishly+Yours&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lavishly+Yours&family=Sacramento&display=swap');
 * {
@@ -272,14 +272,19 @@ ul li a:hover {
 
 .foot-container div {
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
 }
 
 .foot-container div p {
     line-height: 20px;
+    
 }
 
 .foot-container div img {
-    margin-left: 20px;
+    margin-left: 0.5vw;
     background-color: white;
     border-radius: 20px;
     padding: 5px;
