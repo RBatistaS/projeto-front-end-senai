@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FAF7F2;
+}
+nav {
+    background-color: aliceblue;
+    height: 60px;
+    width: 100vw;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.192);
+    border-bottom: 1px solid #13361c;
+    
+    
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    align-content: center ;
+}
+
+ nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    float: left;
+    text-decoration: none;
+    font-size: 3.5vh;
+}
+
+
+
+#logoC {
+    margin-left: 20vw;
+    margin-right: 40vw;
+    margin-top: 20px;
+}
+
+#Contato {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 550px){
+    #logoC {
+        margin-left: 0vw;
+        margin-right: 40vw;
+        margin-top: 20px;
+    }
+    
+    #Contato {
+        margin-top: 25px;
+    }
+}
+
+form {
+    background-color:white;
+    width: 70vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.219);
+    
+}
+
+form >label {
+    display: inline-block;
+    margin:5px;
+}
+
+#camada-1{
+    margin-left: 50px;
+    
+}
+
+button {
+    background-color:rgba(0, 183, 255, 0.13);
+    display:block;
+    padding: 5px 40px;
+    margin: auto;  
+    margin-top:40px;
+}
+
+div {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+
+
+/* Início Footer */
+
+.foot-container {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #1D8EA2;
+    display: flex;
+    color: white;
+}
+
+.foot-container div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.foot-container div p {
+    line-height: 20px;
+    
+}
+
+.foot-container div img {
+    margin-left: 0.5vw;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
