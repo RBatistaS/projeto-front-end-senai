@@ -5,7 +5,6 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #FAF7F2;
 }
 nav {
     background-color: aliceblue;
@@ -41,7 +40,7 @@ nav {
     margin-top: 25px;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 100px){
     #logoC {
         margin-left: 0vw;
         margin-right: 40vw;
@@ -54,7 +53,7 @@ nav {
 }
 
 form {
-    background-color:white;
+    background-color:rgb(245, 235, 235);
     width: 70vw;
     margin: auto;
     margin-top: 50px;
