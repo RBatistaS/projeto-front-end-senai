@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/estiloform.css">
     <title>Pura Estética</title>
 </head>
-<body>
+<body onload="cadastro()">
     <header>
         <nav>
             <ul>
@@ -17,13 +17,16 @@
         </nav>
     </header>
     <main>
-        <form>
-            <label for="">Nome:</label>
-            <input type="text" id="camada-1"><br>
+        
+        <form onsubmit="return false;">
+            <label for="" id="nome">Nome:</label>
+            <input type="text" class="camada-1"><br>
             <label for="" >Cpf:</label>
-            <input type="text" name="cpf" id="camada-1" style="margin-left: 65px;"><br>
+            <input type="text" name="cpf" class="camada-1" style="margin-left: 65px;"><br>
+            <label for="">celular:</label>
+            <input style="margin-left: 45px;" type="number" class="camada-1"><br>
             <label for="">Email:</label>
-            <input type="text" id="camada-1"><br>
+            <input  type="text" class="camada-1"><br>
             <label for="">Data de nascimento:</label>
             <input type="date" name="data"><br>
             <label for="">Sexo :</label><br>
@@ -31,10 +34,6 @@
             <label for="">Masculino</label>
             <input type="radio" name="Feminino" id="">
             <label for="">Feminino</label><br>
-            <label for="">Digite sua Senha:</label><br>
-            <input type="password" name="senha" id="" style="margin-left:5px ;"><br>
-             <label for="">Confirme sua Senha:</label><br>
-                <input type="password" name="" id="" style="margin-left:5px ;"><br>
             <div>
                 <p>
                     Leia os termos abaixo:
@@ -43,7 +42,9 @@
                 <p><input type="checkbox" name="" id=""> Concorda com os termos de uso?</p>
                 
             </div>
-            <button>Enviar</button>
+            
+                <button onload="validacao();">ENVIAR</button>
+                <button class="bt"><a style="text-decoration: none; color: red;" href="index.html">VOLTAR</a></button>
         </form>
 
           

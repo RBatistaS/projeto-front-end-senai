@@ -12,3 +12,16 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 5000); // Change image every 2 seconds
 }
+
+function validacao() {
+  var nome = document.getElementById(nome);
+  // algoritmo
+  window.alert(nome +' cadastro efetivado entramos em contato em breve');
+
+}
+
+function cadastro() {
+ 
+  window.alert('Cadastre se para saber mais!');
+
+}

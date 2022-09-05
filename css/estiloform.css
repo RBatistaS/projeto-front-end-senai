@@ -70,11 +70,14 @@ form >label {
     margin:5px;
 }
 
-#camada-1{
+.camada-1{
     margin-left: 50px;
     
 }
 
+.bt {
+    margin-top: 5px;
+}
 button {
     background-color:rgba(0, 183, 255, 0.13);
     display:block;
